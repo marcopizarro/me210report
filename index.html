@@ -1,25 +1,13 @@
 <html>
     <head>
         <title>ME 210: Team Swervo</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-        <style>
-            body {
-                font-family: 'Roboto', sans-serif;
-                font-size: large;
-                margin: 1em;
-                }
-            h1 {
-                font-weight: 900;
-            }
-            h3 {
-                font-weight: bold;
-            }
-        </style>
     </head>
     <body>
-        <h1>ME 210: Swervo</h1>
+        <h1>ME 210: Team Swervo</h1>
         <h3>Bill Of Materials</h3>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus aliquam massa sed tincidunt. Curabitur sed volutpat orci. Duis sed convallis magna, vel venenatis tellus. Cras sed convallis dui, eu tincidunt quam. Fusce ullamcorper, orci eget fringilla pellentesque, risus eros porttitor ipsum, in fermentum justo odio vitae enim. Nunc auctor enim quis urna sodales convallis. Suspendisse condimentum risus metus, vitae condimentum risus dignissim in. Proin mollis rhoncus finibus. Etiam accumsan molestie eros at sodales. Vestibulum ullamcorper et risus ut blandit. Sed at eros quis nisi tempus dignissim vitae vitae sem. Pellentesque laoreet sem ut diam pellentesque accumsan. Aliquam erat volutpat. Sed bibendum volutpat lacus, non tristique mauris imperdiet in. In eget purus eu lacus efficitur sollicitudin vel at enim. Aliquam convallis suscipit leo, at imperdiet nisl rutrum a.
@@ -44,5 +32,69 @@
             <br><br>
             Nunc at orci quis erat imperdiet pulvinar vitae bibendum dolor. Vivamus nunc mi, fermentum a tempus nec, rhoncus vitae lacus. Cras ut nulla dignissim mi ullamcorper bibendum et sed arcu. Nulla sit amet lorem ac tellus interdum iaculis. Ut nec eros et erat consectetur scelerisque sit amet ut dolor. Proin nec magna eget neque elementum fringilla. Nullam pulvinar, nunc ultrices mollis dignissim, lorem metus pellentesque odio, id feugiat dui massa vitae erat. Donec tempus nisi turpis, mattis consequat ipsum feugiat at. Maecenas dolor ante, mattis sed lorem in, lacinia consequat orci.
         </p>
+                        <!-- Slideshow container -->
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                            <div class="numbertext">1 / 7</div>
+                            <img src="images/crazyWires.jpeg" style="width:100%">
+                            <div class="text">All 5 Of Our Line Sensors</div>
+                            </div>
+                        
+                            <div class="mySlides fade">
+                            <div class="numbertext">2 / 7</div>
+                            <img src="images/online.jpeg" style="width:100%">
+                            <div class="text">Testing!</div>
+                            </div>
+                        
+                            <div class="mySlides fade">
+                            <div class="numbertext">3 / 7</div>
+                            <img src="images/frame.jpeg" style="width:100%">
+                            <div class="text">Laser Cut Frame</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 7</div>
+                                <img src="images/roller.jpeg" style="width:100%">
+                                <div class="text">Powertrain & Roller Ball</div>
+                                </div>
+
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">5 / 7</div>
+                                <img src="images/foam.jpeg" style="width:100%">
+                                <div class="text">Early Foam Prototoype</div>
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">6 / 7</div>
+                                    <img src="images/batteries.jpeg" style="width:100%">
+                                    <div class="text">Battery Placement on Chasis</div>
+                                    </div>
+                        
+                                    <div class="mySlides fade">
+                                        <div class="numbertext">7 / 7</div>
+                                        <img src="images/balls.jpeg" style="width:100%">
+                                        <div class="text">Extended Shelf for Balls</div>
+                                        </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                            <span class="dot" onclick="currentSlide(6)"></span>
+                            <span class="dot" onclick="currentSlide(7)"></span>
+                        </div>
+        <script src="index.js"></script>
     </body>
 </html>
