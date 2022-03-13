@@ -1,3 +1,7 @@
+iframe {
+    width: 350px;
+    height: 450px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: large;
