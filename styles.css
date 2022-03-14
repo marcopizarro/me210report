@@ -1,18 +1,45 @@
-iframe {
-    width: 350px;
-    height: 450px;
+html, body {
+    height: 100%;
+    padding: 20px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+td {
+    padding: 10px;
+}
+table {
+    border: 1px;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: large;
     margin: 1em;
+    max-width: 700px;
+    align-self: center;
+    }
+    p, h4, img {
+        margin-left: 5%;
+    }
+    img {
+        width: 50%;
+        padding: 10px;
     }
 h1 {
     font-weight: 900;
 }
-h3 {
-    font-weight: bold;
+h2, h4 {
+    font-weight: 900;
+    font-style:italic;
 }
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
