@@ -238,8 +238,35 @@
         <div>
             <h3>3. Code/Circuitry to move motors and adjust speed</h3>
             <p>
-                code here
+                Robot.h is a library designed for this class that streamlines the development and debugging process of
+                creating a
+                running robot. Key features in the library include debugging functions that print out sensor readings, a
+                diagnostic
+                command, and motor function handlers.
+
+                The idea to create the library stems from the hours of the early development process. Trying to debug
+                and organize code
+                was very difficult and unintuitive. This library has easily readable functions that do exactly what they
+                are named. This
+                way, we abstract the underlying code that allows for certain robot tasks and instead have the end user
+                focus more on
+                complementing a state machine for the robot. For example, if one wanted the robot to line follow at a
+                certain state,
+                they can simply write robot.Follow() without worrying about edge cases and maintaining the same logic in
+                a not the part
+                of the program. By defining a few key pins using the given library structs, anyone trying to recreate
+                our robot will be
+                able to utilize the library.
+
+                Overall, the creating of the library came with a steep up front cost but it eventually paid off when it
+                came to creating
+                the state machine logic. The code we developed became much cleaner and easier to understand and helped a
+                lot when it
+                came to debugging. Having a program only deal with states and a library only deal with robot functions
+                helped
+                decentralize errors and ultimately made refactoring and fixing code a lot easier.
             </p>
+            <h4><a href="https://github.com/marcopizarro/ME210FinalProject" target="_blank">Link to GitHub↗</a></h4>
 
         </div>
         <div>
@@ -351,9 +378,8 @@
         <div>
             <h3>7. Execute state diagram to complete the task</h3>
             <p>
-                here
+                <img style="width: 100%;" src="images/state.jpg" alt="">
             </p>
-
         </div>
         <h3>Final Thoughts</h3>
         <p>The many late nights and frustrating hours spent designing the robot taught Team Swervo about the

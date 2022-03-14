@@ -7,10 +7,26 @@ html {
     display: table;
     margin: auto;
 }
+input[type=checkbox] {
+  display: none;
+}
 
+.container img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
 body {
     display: table-cell;
     vertical-align: middle;
+}
+img {
+    width: 100%;
 }
 td {
     padding: 10px;
@@ -22,10 +38,10 @@ body {
     font-family: 'Helvetica', sans-serif;
     font-size: large;
     margin: 1em;
-    max-width: 700px;
     align-self: center;
+    max-width: 700;
     }
-    p, h4, img {
+    p, h4, img{
         margin-left: 5%;
     }
     img {
